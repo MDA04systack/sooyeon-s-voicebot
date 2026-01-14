@@ -1,7 +1,7 @@
 ##### 기본 정보 입력 #####
 import streamlit as st
 # audiorecorder 패키지 추가
-from streamlit-audiorecorder import audiorecorder
+from audiorecorder import audiorecorder
 # OpenAI 패키지 추가
 import openai
 # 파일 삭제를 위한 패키지 추가
@@ -155,4 +155,5 @@ def main():
 
 if __name__=="__main__":
     main()
+
 
